@@ -1,5 +1,4 @@
 .firts-block {
-    background-color: #1F2937;
     display: grid;
     grid-template-columns: 70% 30%;
 }
@@ -37,11 +36,41 @@
     color: #f9faf8;
 }
 
-#container {
-    background-color: #1F2937;
+#container-1 {
     display: grid;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: #1F2937;
+}
+
+#container-2 {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 100px;
+}
+
+#container-3 {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #e5e7eb;
+    padding-bottom: 70px;
+}
+
+#container-4 {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#container-5 {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1F2937;
 }
 
 #second-text {
@@ -73,7 +102,96 @@ body {
 button {
     background-color: #3882f6;
     border-radius: 10px;
-    width: 15%;
     height: 35px;
     color: #f9faf8;
+    width: 100px;
+}
+
+#inf-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.blue-square {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.square {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+}
+
+.blue-square-text {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.subtext {
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    width: 75%;
+    font-weight: bold;
+}
+
+#call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    height: 100px;
+}
+
+#call-text {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+}
+
+#button-call {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 15%;
+}
+
+#p-s {
+    display: flex;
+    font-size: 12px;
+    color: #f9faf8;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
